@@ -5,6 +5,9 @@ filetype plugin indent on
 set t_Co=256
 set number
 set laststatus=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 
 set background=dark
 let g:airline_powerline_fonts = 1 
