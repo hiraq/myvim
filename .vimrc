@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+autocmd FileType ruby set tabstop=8|set shiftwidth=2|set expandtab
 
 set t_Co=256
 set number
@@ -8,10 +9,10 @@ set laststatus=2
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set nowrap
 
 set background=dark
 let g:airline_powerline_fonts = 1 
-colorscheme solarized
 
 map <C-e> :TagbarToggle<CR>
 map <C-d> :NERDTreeToggle<CR>
