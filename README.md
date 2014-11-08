@@ -25,6 +25,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 1. NerdTree: https://github.com/scrooloose/nerdtree
 2. TagBar: https://github.com/majutsushi/tagbar
 3. Airline: https://github.com/bling/vim-airline 
+4. CtrlP: http://kien.github.io/ctrlp.vim/
 
 ### CTags
 
